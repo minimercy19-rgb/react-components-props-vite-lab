@@ -1,10 +1,10 @@
-function Article({ title, date, preview }) {
+function Article({ title, date = "January 1, 2020", preview }) {
     return (
-        <div>
+        <article>
             <h3>{title}</h3>
             <small>{date}</small> 
             <p>{preview}</p>
-        </div>
+        </article>
     );
 
 }
