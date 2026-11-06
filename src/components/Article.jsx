@@ -2,7 +2,7 @@ function Article({ title, date, preview }) {
     return (
         <div>
             <h3>{title}</h3>
-            {date}
+            <small>{date}</small> 
             <p>{preview}</p>
         </div>
     );
